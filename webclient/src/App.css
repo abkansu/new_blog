@@ -1,0 +1,16 @@
+.App {
+  align-items: center;
+  display: flex;
+  font-family: 'Kanit', sans-serif;
+  justify-content: center;
+}
+
+
+/*
+ORIGINAL | INVERSE 
+-------------------
+#222831  | #DDD7CE
+#393E46  | #C6C1B9
+#00ADB5  | #FF524A
+#EEEEEE  | #111111
+*/
