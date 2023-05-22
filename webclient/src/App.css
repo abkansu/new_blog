@@ -1,8 +1,19 @@
-.App {
+.App-Dark {
   align-items: center;
-  display: flex;
-  font-family: 'Kanit', sans-serif;
   justify-content: center;
+  background-color: #2C3333;
+  display: flex;
+  height: 1000px;
+  font-family: 'Kanit', sans-serif;
+}
+
+.App-Light {
+  align-items: center;
+  justify-content: center;
+  background-color: #FAFAFA;
+  display: flex;
+  height: 1000px;
+  font-family: 'Kanit', sans-serif;
 }
 
 
@@ -13,4 +24,13 @@ ORIGINAL | INVERSE
 #393E46  | #C6C1B9
 #00ADB5  | #FF524A
 #EEEEEE  | #111111
+*/
+
+/*
+DARK    | LIGHT
+#FEFFDE | #645CBB
+#DDFFBC | #A084DC
+#91C788 | #BFACE2
+#52734D | #EBC7E6
+#2C3333 | #FAFAFA
 */

@@ -1,0 +1,117 @@
+.TextBox{
+    display: flex;
+    position: relative;
+}
+
+.TextInput-Dark{
+    align-items: center;
+    background-color: #2C3333;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: #91C788;
+    display: flex;
+    font: 16px 'Kanit', sans-serif;
+    height: 35px;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+    outline: none;
+    transition: top 0.7s;
+}
+
+.TextLabel-Dark{
+    color: #52734D;
+    font: 16px 'Kanit', sans-serif;
+    padding: 0 5px;
+    position: absolute;
+    left: 7%;
+    top: 17%;
+}
+.TextInput-Dark:focus{
+    border: 1px solid #91C788;
+}
+
+.TextInput-Dark:focus ~ .TextLabel-Dark{
+    top: -35%;
+    background-color: #2C3333;
+    color: #91C788;
+}
+
+.TextInput-Dark:valid{
+    border: 1px solid #91C788;
+}
+
+.TextInput-Dark:valid ~ .TextLabel-Dark{
+    top: -35%;
+    background-color: #2C3333;
+    color: #91C788;
+}
+
+
+.TextInput-Light{
+    align-items: center;
+    background-color: #FAFAFA;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: #645CBB;
+    display: flex;
+    font: 16px 'Kanit', sans-serif;
+    height: 35px;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+    outline: none;
+    transition: top 0.7s;
+}
+
+.TextLabel-Light{
+    color: #BFACE2;
+    font: 16px 'Kanit', sans-serif;
+    padding: 0 5px;
+    position: absolute;
+    left: 7%;
+    top: 17%;
+}
+.TextInput-Light:focus{
+    border: 1px solid #645CBB;
+}
+
+.TextInput-Light:focus ~ .TextLabel-Light{
+    top: -35%;
+    background-color: #FAFAFA;
+    color: #645CBB;
+}
+
+.TextInput-Light:valid{
+    border: 1px solid #645CBB;
+}
+
+.TextInput-Light:valid ~ .TextLabel-Light{
+    top: -35%;
+    background-color: #FAFAFA;
+    color: #645CBB;
+}
+
+/*
+.TextInput-Dark{
+    background-color: #2C3333;
+    border: 1px solid gray;
+    border-radius: 16px;
+    color: #52734D;
+    font: 16px 'Kanit', sans-serif;
+    height: 30px;
+    padding-left: 1%;
+    outline: none;
+}
+
+.TextInput-Light{
+    background-color: #FAFAFA;
+    border: 1px solid gray;
+    border-radius: 16px;
+    color: #645CBB;
+    font: 16px 'Kanit', sans-serif;
+    height: 30px;
+    padding-left: 1%;
+}
+
+*/

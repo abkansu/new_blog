@@ -1,0 +1,107 @@
+.TopBar-Dark{
+    background-color: #2f3434;
+    border-bottom: 1px solid gray;
+    height: 80px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.TopBar-Light{
+    background-color: #FEFFDE;
+    border-bottom: 1px solid gray;
+    height: 80px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.Brand-Dark{
+    align-items: center;
+    color: #52734D;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    float: left;
+    height: 80px;
+    justify-content: center;
+    padding-left: 20px;
+    width: 200px;
+}
+
+.Brand-Dark:hover{
+    cursor: pointer;
+}
+
+.Brand-Light{
+    align-items: center;
+    color: #645CBB;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    float: left;
+    height: 80px;
+    justify-content: center;
+    padding-left: 20px;
+    width: 200px;
+}
+
+.Brand-Light:hover{
+    cursor: pointer;
+}
+
+.Page-Dark{
+    align-items: center;
+    color: #52734D;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    float: right;
+    height: 80px;
+    justify-content: center;
+    width: 80px;
+}
+
+.Page-Dark:hover{
+    cursor: pointer;
+}
+
+.Page-Light{
+    align-items: center;
+    color: #645CBB;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    float: right;
+    height: 80px;
+    justify-content: center;
+    width: 80px;
+}
+
+.Page-Light:hover{
+    cursor: pointer;
+}
+
+.Icon-Dark{
+    align-items: center;
+    color: #52734D;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    float: right;
+    height: 80px;
+    justify-content: center;
+    width: 80px;
+}
+
+.Icon-Dark:hover{
+    cursor: pointer;
+}
+
+.Icon-Light{
+    align-items: center;
+    color: #645CBB;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    float: right;
+    height: 80px;
+    justify-content: center;
+    width: 80px;
+}
+
+.Icon-Light:hover{
+    cursor: pointer;
+}

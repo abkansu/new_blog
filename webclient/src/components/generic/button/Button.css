@@ -1,0 +1,66 @@
+.Button{
+    align-items: center;
+    border-style: none;
+    border-radius: 16px;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    height: 30px;
+    justify-content: center;
+    width: 80px;
+}
+
+.Button:hover{
+    cursor: pointer;
+}
+
+.Button-Big{
+    align-items: center;
+    border-style: none;
+    border-radius: 16px;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    height: 40px;
+    justify-content: center;
+    width: 160px;
+}
+
+.Button-Big:hover{
+    cursor: pointer;
+}
+
+.Button-Small{
+    align-items: center;
+    border-style: none;
+    border-radius: 16px;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    height: 40px;
+    justify-content: center;
+    width: 40px;
+}
+
+.Button-Small:hover{
+    cursor: pointer;
+}
+
+.Positive-Dark{
+    background-color: #52734D;
+    color: #FEFFDE;
+}
+
+.Negative-Dark{
+    background-color: #FEFFDE;
+    border: 3px solid #52734D ;
+    color: #52734D;
+}
+
+.Positive-Light{
+    background-color: #645CBB;
+    color: #FEFFDE;
+}
+
+.Negative-Light{
+    background-color: #FEFFDE;
+    border: 3px solid #645CBB ;
+    color: #645CBB;
+}
