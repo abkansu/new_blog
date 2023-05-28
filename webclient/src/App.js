@@ -6,6 +6,7 @@ import { ThemeContext } from './context/Context';
 import ButtonSmall from './components/generic/button/ButtonSmall';
 import TopBar from './components/specific/topBar/TopBar';
 import TextInput from './components/generic/input/textInput/TextInput';
+import DateInput from './components/generic/input/dateInput/DateInput';
 
 
 
@@ -19,8 +20,14 @@ function App() {
     <ThemeContext.Provider value={theme}>
       <TopBar theme={theme} onClickIcon={switchTheme}/>
       <div className={`App-${theme}`}>
+        <div>
         <TextInput theme={theme} placeholder={"Username"}/>
+        </div>
+        <div style={{marginLeft: "25%", marginTop:"25%"}}>
+        <DateInput theme={theme} placeholder={"Date"}/>
+        </div>
       </div>
+      
     </ThemeContext.Provider>
   );
 }

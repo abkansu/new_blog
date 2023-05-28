@@ -1,9 +1,9 @@
-.TextBox{
+.DateBox{
     display: flex;
     position: relative;
 }
 
-.TextInput-Dark{
+.DateInput-Dark{
     align-items: center;
     background-color: #2C3333;
     border: 1px solid gray;
@@ -18,37 +18,35 @@
     outline: none;
 }
 
-.TextLabel-Dark{
+.DateLabel-Dark{
     color: #52734D;
     font: 16px 'Kanit', sans-serif;
     padding: 0 5px;
     position: absolute;
-    left: 7%;
+    left: 70%;
     top: 17%;
     transition: all 0.5s;
 }
-.TextInput-Dark:focus{
+.DateInput-Dark:focus{
     border: 1px solid #91C788;
 }
 
-.TextInput-Dark:focus ~ .TextLabel-Dark{
-    top: -35%;
+.DateInput-Dark:focus ~ .DateLabel-Dark{
     background-color: #2C3333;
     color: #91C788;
 }
 
-.TextInput-Dark:valid{
+.DateInput-Dark:valid{
     border: 1px solid #91C788;
 }
 
-.TextInput-Dark:valid ~ .TextLabel-Dark{
-    top: -35%;
+.DateInput-Dark:valid ~ .DateLabel-Dark{
     background-color: #2C3333;
     color: #91C788;
 }
 
 
-.TextInput-Light{
+.DateInput-Light{
     align-items: center;
     background-color: #FAFAFA;
     border: 1px solid gray;
@@ -63,31 +61,29 @@
     outline: none;
 }
 
-.TextLabel-Light{
+.DateLabel-Light{
     color: #BFACE2;
     font: 16px 'Kanit', sans-serif;
     padding: 0 5px;
     position: absolute;
-    left: 7%;
+    left: 70%;
     top: 17%;
     transition: all 0.5s;
 }
-.TextInput-Light:focus{
+.DateInput-Light:focus{
     border: 2px solid #645CBB;
 }
 
-.TextInput-Light:focus ~ .TextLabel-Light{
-    top: -35%;
+.DateInput-Light:focus ~ .DateLabel-Light{
     background-color: #FAFAFA;
     color: #645CBB;
 }
 
-.TextInput-Light:valid{
+.DateInput-Light:valid{
     border: 2px solid #645CBB;
 }
 
-.TextInput-Light:valid ~ .TextLabel-Light{
-    top: -35%;
+.DateInput-Light:valid ~ .DateLabel-Light{
     background-color: #FAFAFA;
     color: #645CBB;
 }
