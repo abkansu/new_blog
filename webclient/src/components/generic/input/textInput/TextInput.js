@@ -11,19 +11,3 @@ const TextInput = (props) => {
     );
 }
 export default TextInput;
-
-/*
-const TextInput = (props) => {
-    const { theme, placeholder } = props;
-
-    return (
-        <div>
-            <input className={`TextInput-${theme}`} type="text" placeholder={`${placeholder}`}/>
-        </div>
-    );
-}
-
-
-
-*/
-
